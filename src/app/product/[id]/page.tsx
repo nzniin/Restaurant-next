@@ -8,7 +8,7 @@ const SingleProductPage = () => {
     <div className="p-4 lg:px-20 xl:px-40 h-screen flex flex-col justify-around text-red-500 md:flex-row md:gap-8 md:items-center">
       {/* IMAGE CONTAINER */}
       {singleProduct.img && (
-        <div className="relative w-full h-1/2 md:h-[70%] hover:rotate-[60deg] transition-all duration-500">
+        <div className="relative w-full h-1/2 md:h-[70%]">
           <Image
             src={singleProduct.img}
             alt=""
